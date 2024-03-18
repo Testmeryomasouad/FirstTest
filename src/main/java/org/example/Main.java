@@ -25,6 +25,8 @@ public class Main {
         System.out.println("-----------------------------\u001B[1m\u001B[5m\u001B[36mVariables\u001B[0m----------------------");
        String[] names = new String[4];
        String[] values={"Welcome","to","My","Word","time"};
+
+
        int  h=values.length;
        Basics basics=new herit();
        basics.heelo();
@@ -82,9 +84,12 @@ public class Main {
 
         Depot depot=new Depot(872827,"Mohamed",878);
         Retrait  retrait=new Retrait(872827,"Mohamed",99);
+        Retrait  retraitt=new Retrait(89776,"souad",90);
+
 
          depot.effectuer();
          retrait.effectuer();
+         retraitt.effectuer();
 
 
 
